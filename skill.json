@@ -1,0 +1,33 @@
+{
+  "name": "genpark-low-latency-prosody-sentiment-modulator-skill",
+  "version": "1.0.0",
+  "description": "Low-latency streaming prosody, SSML, and emotion pacing modulator dynamically tailoring speech pitch, cadence, and pause inflections.",
+  "category": "Service",
+  "author": "AlphaPark",
+  "tags": [
+    "prosody",
+    "ssml",
+    "voice-agent",
+    "sentiment-modulation",
+    "tts-optimization",
+    "mcp"
+  ],
+  "tools": [
+    {
+      "name": "modulate_stream_chunk",
+      "description": "Dynamically adjust speech rate, pitch, and cadence based on dialogue sentiment and urgency."
+    },
+    {
+      "name": "inject_natural_breathing_pauses",
+      "description": "Insert micro-pause break tags into raw text at clause boundaries."
+    },
+    {
+      "name": "generate_ssml_payload",
+      "description": "Construct valid SSML document incorporating modulated prosody settings."
+    },
+    {
+      "name": "run_benchmark_prosody_modulation",
+      "description": "Test prosody modulation across joyful, urgent, and empathetic dialogues."
+    }
+  ]
+}
